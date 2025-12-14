@@ -17,7 +17,7 @@ const App: React.FC = () => {
   const handleFormSubmit = async (data: UserInput) => {
     // 检查系统状态
     if (API_STATUS === 0) {
-      setError("当前服务器繁忙，使用的用户过多导致API堵塞，请择时再来");
+      setError("当前服务器正在维护，请择时再来");
       // Removed scrollTo to keep user context
       return;
     }
