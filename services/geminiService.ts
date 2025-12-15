@@ -1,6 +1,6 @@
 import { UserInput, LifeDestinyResult, Gender } from "../types";
 import { BAZI_SYSTEM_INSTRUCTION } from "../constants";
-import { MOCK_RESULT } from "./mockData";
+// import { MOCK_RESULT } from "./mockData";  // 已禁用：不再使用样例数据
 
 // Helper to determine stem polarity
 const getStemPolarity = (pillar: string): "YANG" | "YIN" => {
@@ -17,8 +17,8 @@ const getStemPolarity = (pillar: string): "YANG" | "YIN" => {
 export const generateLifeAnalysis = async (
   input: UserInput
 ): Promise<LifeDestinyResult> => {
-  // Mock data return as requested for K-line visualization
-  return MOCK_RESULT;
+  // 已禁用样例数据，使用真实 API 调用
+  // return MOCK_RESULT;
 
   const { apiKey, apiBaseUrl, modelName } = input;
 
