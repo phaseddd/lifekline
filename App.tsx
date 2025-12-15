@@ -333,7 +333,7 @@ const App: React.FC = () => {
                 将您的一生运势绘制成类似股票行情的K线图。
                 <br />
                 <span className="text-sm bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded mt-2 inline-block">
-                  无需 API Key，拷贝提示词给 ChatGPT/Claude 即可生成
+                  无需 API Key，拷贝提示词给 ChatGPT/Claude/Gemini 即可生成
                 </span>
               </p>
             </div>
